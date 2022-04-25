@@ -62,4 +62,5 @@
 }
 .encabezado_nav__link:hover {
 text-decoration: underline rgb(24, 201, 171) 3px;
+margin-bottom: 1rem;
 }

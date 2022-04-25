@@ -1,0 +1,108 @@
+#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: -webkit-sticky;
+    width: 1136px;
+    height: 368px;
+    left: 1rem;
+    top: 90px;
+}
+
+.hero_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    vertical-align: middle;
+    position: static;
+    width: 751px;
+    height: 368px;
+    left: 0px;
+    top: 461px;
+
+}
+
+.hero_info__titulo {
+    position: static;
+    width: 751px;
+    height: 150px;
+    left: 30px;
+    top: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 61px;
+
+    color: #464646;
+
+
+}
+
+.hero_info__presentacion {
+    position: static;
+    width: 751px;
+    height: 52px;
+    left: 30px;
+    top: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+
+    color: #464646;
+}
+
+.hero_info__social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+    justify-content: space-between;
+
+    position: static;
+    width: 467px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 10px;
+
+}
+
+.hero_info__social-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 104px;
+    height: 24px;
+    left: 234px;
+    top: 0px;
+    color: #464646;
+    text-decoration: none;
+}
+
+.hero_info__social-link i{
+    padding: 5px;
+}
+.hero_info__social-link:hover {
+    text-decoration: underline rgb(24, 201, 171) 3px;
+    }
+
+.hero_fotoPerfil {
+    position: static;
+    width: 368px;
+    height: 368px;
+    left: 768px;
+    top: 0px;
+    border-radius: 100%;
+}

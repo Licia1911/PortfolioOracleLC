@@ -10,3 +10,9 @@ body {
     right: 0%;
     top: 0px;
 }
+
+.contenido_principal {
+    width: 1136px;
+    height: auto;
+    margin-top: 100px;
+}
