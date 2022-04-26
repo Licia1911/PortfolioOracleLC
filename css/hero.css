@@ -1,4 +1,7 @@
 #hero {
+    background-image: url(../imagenes/banner1.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,9 +11,10 @@
     position: -webkit-sticky;
     width: 1136px;
     height: 368px;
-    left: 1rem;
+    left: 0px;
     top: 90px;
 }
+
 
 .hero_info {
     display: flex;
