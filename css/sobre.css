@@ -1,0 +1,70 @@
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+
+    position: static;
+    width: 1321px;
+    height: 383px;
+    margin-left: -170px;
+    margin-top: 20px;
+
+    background: #EAF2FD;
+}
+
+.sobre_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+
+    position: static;
+    width: 1136px;
+    height: 255px;
+    margin-left: 0px;
+    margin-top: 64px;
+}
+
+.sobre_container__titulo {
+    position: static;
+    width: 137px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #464646;
+
+}
+.sobre_container__descripcion {
+    position: static;
+width: 751px;
+height: 133px;
+left: 0px;
+top: 54px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Preto/100% */
+
+color: #464646;
+
+}
+
+.sobre_container__imagenFirma {
+position: static;
+width: 140px;
+height: 52px;
+left: 0px;
+top: 203px;
+}

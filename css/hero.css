@@ -1,7 +1,7 @@
 #hero {
     background-image: url(../imagenes/banner1.jpg);
     background-size: 100% 100%;
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,8 +34,8 @@
     position: static;
     width: 751px;
     height: 150px;
-    left: 30px;
-    top: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -52,8 +52,8 @@
     position: static;
     width: 751px;
     height: 52px;
-    left: 30px;
-    top: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -75,8 +75,8 @@
     position: static;
     width: 467px;
     height: 50px;
-    margin-left: 130px;
-    margin-top: 10px;
+    left: 130px;
+    top: 10px;
 
 }
 
