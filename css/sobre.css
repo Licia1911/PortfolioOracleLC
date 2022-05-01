@@ -5,10 +5,12 @@
     padding: 64px;
 
     position: static;
-    width: 1321px;
+    width: 1440px;
     height: 383px;
-    margin-left: -170px;
-    margin-top: 20px;
+    left: 0px;
+    margin-top: 50px;
+
+    /* Azul/10% */
 
     background: #EAF2FD;
 }
@@ -17,13 +19,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 40px;
+    padding: 0px;
 
     position: static;
     width: 1136px;
-    height: 255px;
-    margin-left: 0px;
-    margin-top: 64px;
+    height: 240px;
+    left: 152px;
+    top: 64px;
 }
 
 .sobre_container__titulo {
@@ -42,29 +44,30 @@
     color: #464646;
 
 }
+
 .sobre_container__descripcion {
     position: static;
-width: 751px;
-height: 133px;
-left: 0px;
-top: 54px;
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    margin-top: 30px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 
-/* Preto/100% */
+    /* Preto/100% */
 
-color: #464646;
+    color: #464646;
 
 }
 
 .sobre_container__imagenFirma {
-position: static;
-width: 140px;
-height: 52px;
-left: 0px;
-top: 203px;
+    position: static;
+    width: 140px;
+    height: 52px;
+    left: 0px;
+    margin-top: 80px;
 }

@@ -1,18 +1,17 @@
 #hero {
     background-image: url(../imagenes/banner1.jpg);
-    background-size: 100% 100%;
-    margin-top: 60px;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
 
-    position: -webkit-sticky;
+    position: static;
     width: 1136px;
     height: 368px;
-    left: 0px;
-    top: 90px;
+    margin-left: 152px;
+    top: 120px;
 }
 
 
@@ -21,39 +20,39 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    vertical-align: middle;
+
     position: static;
     width: 751px;
-    height: 368px;
+    height: 246px;
     left: 0px;
-    top: 461px;
+    margin-top: 0px;
 
 }
 
 .hero_info__titulo {
     position: static;
     width: 751px;
-    height: 150px;
-    margin-left: 30px;
-    margin-top: 40px;
+    height: 122px;
+    left: 0px;
+    margin-top: 10px;
 
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 2.7rem;
+    font-weight: 600;
+    font-size: 52px;
     line-height: 61px;
 
+    /* Preto/100% */
+
     color: #464646;
-
-
 }
 
 .hero_info__presentacion {
     position: static;
     width: 751px;
     height: 52px;
-    margin-left: 30px;
-    margin-top: 40px;
+    left: 0px;
+    margin-top: 70px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -61,6 +60,7 @@
     font-size: 22px;
     line-height: 26px;
 
+    /* Preto/100% */
 
     color: #464646;
 }
@@ -83,24 +83,25 @@
 .hero_info__social-link {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     padding: 0px;
 
     position: static;
-    width: 104px;
+    width: 467px;
     height: 24px;
-    left: 234px;
-    top: 0px;
+    left: 0px;
+    top: 222px;
     color: #464646;
     text-decoration: none;
 }
 
-.hero_info__social-link i{
+.hero_info__social-link i {
     padding: 5px;
 }
+
 .hero_info__social-link:hover {
     text-decoration: underline rgb(24, 201, 171) 3px;
-    }
+}
 
 .hero_fotoPerfil {
     position: static;

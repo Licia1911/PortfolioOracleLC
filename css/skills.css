@@ -1,0 +1,214 @@
+.container_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1440px;
+    height: 1245px;
+    left: 0px;
+    top: 935px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 244px;
+    left: 152px;
+    margin-top: 50px;
+
+}
+
+.skills_titulo {
+    position: static;
+    width: 82px;
+    height: 38px;
+    left: 527px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+}
+
+.skills_lista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 0px;
+    margin-top: 70px;
+}
+
+.skills_lista__items {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: static;
+    width: 150px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.skills_lista__items:hover {
+    transform: scale(1.2);
+    background: #EAF2FD;
+    border-radius: 20px;
+}
+
+.fa-brands {
+    position: static;
+    width: 24px;
+    height: 37px;
+    left: 16px;
+    top: 94px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2A7AE4;
+
+}
+
+
+
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 244px;
+    left: 152px;
+    margin-top: 50px;
+
+
+}
+
+.hobbies_titulo {
+    position: static;
+    width: 127px;
+    height: 38px;
+    left: 504.5px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+}
+
+.hobbies_lista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 0px;
+    top: 70px;
+}
+
+.hobbies_lista__items {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: static;
+    width: 150px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+
+.hobbies_lista__items-icono {
+    position: static;
+    width: 100px;
+    left: 16px;
+    top: 94px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbies_lista__items-icono:hover {
+    transform: scale(1.8);
+    border-radius: 20px;
+}
+
+#formacion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 347px;
+    left: 152px;
+    top: 152px;
+
+}
