@@ -199,16 +199,3 @@
     border-radius: 20px;
 }
 
-#formacion {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 1136px;
-    height: 347px;
-    left: 152px;
-    top: 152px;
-
-}
