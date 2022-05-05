@@ -1,0 +1,161 @@
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 1136px;
+    height: 1886px;
+    left: 152px;
+    top: 2212px;
+}
+
+.proyectos_titulo {
+    position: static;
+    width: 361px;
+    height: 38px;
+    left: 387.5px;
+    top: 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.proyectos_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+}
+
+.proyectos_img {
+    position: static;
+    width: 500px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+    border: 1px solid #464646;
+    box-shadow: #464646 8px 8px 8px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin-left: 35px;
+    position: static;
+    width: 368px;
+    height: 112px;
+    left: 768px;
+    top: 147px;
+}
+
+.experiencia_titulo {
+    position: static;
+    width: 368px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    padding-left: 5px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.experiencia_texto {
+    position: static;
+    width: 368px;
+    height: 19px;
+    left: 0px;
+    top: 34px;
+    padding-left: 5px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.experiencia_botones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10px;
+    
+    position: static;
+    width: 560px;
+    height: 51px;
+    left: 0px;
+    top: 61px;
+}
+
+.experiencia_repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 116px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    color: #2A7AE4;
+}
+
+.experiencia_demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    
+    position: static;
+    width: 105px;
+    height: 51px;
+    left: 132px;
+    top: 0px;
+    
+    /* Azul/100% */
+    
+    background: #2A7AE4;
+    color: white;
+}
