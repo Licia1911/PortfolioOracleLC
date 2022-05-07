@@ -1,0 +1,156 @@
+.form_contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    position: static;
+    width: 1440px;
+    height: 788px;
+    left: 0px;
+    top: 0px;
+
+    background: #EAF2FD;
+}
+
+.form_contacto__img {
+    margin: 2rem;
+}
+
+.img_contacto {
+    position: static;
+    width: 633px;
+    height: 544px;
+    left: 0px;
+    top: 65.5px;
+    border-radius: 20px;
+}
+
+.form_contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 2rem;
+    position: static;
+    width: 656px;
+    height: 596px;
+    left: 480px;
+    top: 64px;
+}
+
+.form_contacto__titulo {
+    position: static;
+    width: 141px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
+.form_contacto__texto {
+    position: static;
+    width: 656px;
+    height: 38px;
+    left: 0px;
+    top: 46px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+.form_contacto__nombre {
+    position: static;
+    width: 656px;
+    height: 56px;
+    left: calc(50% - 656px/2);
+    top: 0px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #539cf0;
+
+}
+
+.form_contacto__e-mail {
+    position: static;
+    width: 656px;
+    height: 56px;
+    left: calc(50% - 656px/2);
+    top: 0px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #539cf0;
+}
+
+.form_contacto__asunto {
+    position: static;
+    width: 656px;
+    height: 56px;
+    left: calc(50% - 656px/2);
+    top: 0px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #539cf0;
+}
+
+.form_contacto__mensaje {
+    position: static;
+    width: 656px;
+    height: 133px;
+    left: calc(50% - 656px/2);
+    top: 0px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #539cf0;
+}
+
+.form_contacto__boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 144px;
+    height: 51px;
+    left: 0px;
+    top: 545px;
+    border: none;
+    border-radius: 4px;
+    background: #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+}

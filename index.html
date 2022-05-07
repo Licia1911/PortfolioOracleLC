@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/formacion.css">
     <link rel="stylesheet" href="./css/experiencia.css">
+    <link rel="stylesheet" href="./css/contacto.css">
 
     <title>Portfolio LC</title>
 
@@ -182,11 +183,10 @@
                         <h2 class="experiencia_titulo">Barbería Alura</h2>
                         <h3 class="experiencia_texto">Proyecto de Clase</h3>
                         <div class="experiencia_botones">
-                            <a class="experiencia_repo"
-                                href="https://github.com/Licia1911/Barberia_Alura"
+                            <a class="experiencia_repo" href="https://github.com/Licia1911/Barberia_Alura"
                                 target="_blank">Repositorio</a>
-                            <a class="experiencia_demo"
-                                href="  https://licia1911.github.io/Barberia_Alura/" target="_blank">Ver
+                            <a class="experiencia_demo" href="  https://licia1911.github.io/Barberia_Alura/"
+                                target="_blank">Ver
                                 demo</a>
                         </div>
                     </div>
@@ -195,7 +195,25 @@
 
             </section>
 
-            <div id="contacto">
+            <div class="form_contacto" id="contacto">
+                <div class="form_contacto__img">
+                    <img class=img_contacto src="./imagenes/contacto.png" alt="">
+                </div>
+                <div class="form_contacto__formulario">
+                    <h2 class="form_contacto__titulo">Contacto</h2>
+                    <h3 class="form_contacto__texto">¿Quieres contactarme?</h3>
+                    <h3 class="form_contacto__texto">Complete el siguiente formulario y me pondre en contacto con usted
+                        lo antes posible.</h3>
+                    <input type="text" class="form_contacto__nombre" name="nombre" placeholder="Nombre">
+                    <input type="email" class="form_contacto__e-mail" name="email" placeholder="Ingresa tu email"
+                        required>
+                    <input type="text" class="form_contacto__asunto" name="asunto" placeholder="Asunto">
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="10" class="form_contacto__mensaje"
+                        placeholder="Mensaje"></textarea>
+
+                    <button type="submit" class="form_contacto__boton">Enviar mensaje</button>
+
+                </div>
 
             </div>
 
