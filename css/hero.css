@@ -1,15 +1,12 @@
 #hero {
     background-image: url(../imagenes/banner1.jpg);
-    background-size: cover;
+    background-size: 1150px;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
 
     position: static;
-    width: 1136px;
-    height: 368px;
+    width: auto;
+    height: auto;
     margin-left: 152px;
     top: 120px;
 }

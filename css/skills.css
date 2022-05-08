@@ -5,11 +5,12 @@
     padding: 0px;
 
     position: static;
-    width: 1440px;
-    height: 1245px;
-    left: 0px;
+    width: auto;
+    height: auto;
     top: 935px;
+    margin-left: 35px;
 }
+
 
 #skills {
     display: flex;
@@ -18,31 +19,21 @@
     padding: 0px;
 
     position: static;
-    width: 1136px;
-    height: 244px;
-    left: 152px;
-    margin-top: 50px;
-
+    margin-left: 0px;
+    margin-top: 40px;
 }
 
 .skills_titulo {
     position: static;
     width: 82px;
     height: 38px;
-    left: 527px;
-    top: 0px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
     text-align: center;
-
-    /* Preto/100% */
-
     color: #464646;
 
 }
@@ -52,12 +43,12 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 1136px;
     height: 174px;
     left: 0px;
-    margin-top: 70px;
+    margin-top: 20px;
+    
 }
 
 .skills_lista__items {
@@ -66,7 +57,6 @@
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
     position: static;
     width: 150px;
     height: 174px;
@@ -74,7 +64,7 @@
     top: 0px;
     background: #FFFFFF;
     border-radius: 20px;
-
+    
 }
 
 .skills_lista__items:hover {
@@ -104,7 +94,140 @@
 
 }
 
+#softskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
 
+    position: static;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+
+}
+
+.softskills_titulo {
+    position: static;
+    width: 339px;
+    height: 38px;
+    left: 550.5px;
+    top: 82px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+
+    text-align: center;
+
+    color: #464646;
+}
+
+.softskills_curso {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 152px;
+    top: 152px;
+}
+
+.softskills_curso__box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 1136px;
+    height: 174px;
+    left: 152px;
+    top: 152px;
+}
+
+.softskills_cursos__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: static;
+    width: 368px;
+    height: 174px;
+    margin-left: 10px;
+    top: 0px;
+
+}
+
+.softskills_cursos__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 250px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+
+    background: #EAF2FD;;
+    border-radius: 20px;
+
+}
+
+.softskills_cursos__img img{
+    position: static;
+    width: 192px;
+    height: 130px;
+    left: 88px;
+    top: 78px;
+    border-radius: 20px;
+    box-shadow: #464646 3px 3px 3px;
+}
+
+.softskills_cursos__img img:active {
+    transform: scale(2);
+}
+
+.softskills_curso__titulo {
+    position: static;
+    width: 368px;
+    height: 26px;
+    margin-left: 20px;
+    top: 294px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #464646;
+}
+
+.softskills_curso__subtitulo {
+    position: static;
+    width: 368px;
+    height: 19px;
+    margin-left: 20px;
+    top: 328px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
 
 
 #hobbies {
@@ -114,10 +237,9 @@
     padding: 0px;
 
     position: static;
-    width: 1136px;
-    height: 244px;
-    left: 152px;
-    margin-top: 50px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
 
 
 }
@@ -127,19 +249,16 @@
     width: 127px;
     height: 38px;
     left: 504.5px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
 
     text-align: center;
-
-    /* Preto/100% */
 
     color: #464646;
 
@@ -186,7 +305,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
 
     display: block;
     margin: auto;

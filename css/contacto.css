@@ -1,25 +1,27 @@
 .form_contacto {
     display: flex;
     flex-direction: row;
-    margin-left: 3rem;
     position: static;
-    width: 1440px;
-    height: 788px;
-    left: 0px;
-    top: 0px;
-
+    width: 100%;
+    height: auto;
     background: #EAF2FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-left: -45px
 }
 
 .form_contacto__img {
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .img_contacto {
     position: static;
-    width: 633px;
-    height: 544px;
-    left: 0px;
+    width: 580px;
+    height: 490px;
     top: 65.5px;
     border-radius: 20px;
 }
@@ -31,10 +33,9 @@
     padding: 0px;
     margin: 2rem;
     position: static;
-    width: 656px;
-    height: 596px;
-    left: 480px;
-    top: 64px;
+    width: 556px;
+    height: 496px;
+
 }
 
 .form_contacto__titulo {
@@ -49,11 +50,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-
-
-    /* Preto/100% */
-
     color: #464646;
 }
 
@@ -124,6 +120,14 @@
     border-radius: 4px;
     border: none;
     border-bottom: 2px solid #539cf0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    
+    line-height: 19px;
+
+    color: #464646;
 }
 
 .form_contacto__boton {
@@ -147,10 +151,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
-    /* Preto/branco */
 
     color: #FFFFFF;
+}
+
+.form_contacto__boton:active {
+    transform: scale(.9);
+    box-shadow: #464646 3px 3px 3px;
 }

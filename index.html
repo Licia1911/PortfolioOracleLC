@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0, initial-scale=1.0" />
+
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -21,6 +23,8 @@
     <link rel="stylesheet" href="./css/formacion.css">
     <link rel="stylesheet" href="./css/experiencia.css">
     <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/botonUp.css">
 
     <title>Portfolio LC</title>
 
@@ -42,6 +46,8 @@
         </div>
     </header>
 
+    <a href="#" class="btn-flotante">🆙</a>
+
     <main class="contenido_principal">
         <section id="hero">
             <div class="hero_info">
@@ -49,14 +55,10 @@
                 <p class="hero_info__presentacion">Me estoy formando como programadora web full stack junior y
                     actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                 <nav class="hero_info__social">
-                    <a href="" class="hero_info__social-link">GitHub <i class="fa fa-external-link"
-                            aria-hidden="true"></i></a>
-                    <a href="" class="hero_info__social-link">Linkedin <i class="fa fa-external-link"
-                            aria-hidden="true"></i></a>
-                    <a href="" class="hero_info__social-link">Instagram <i class="fa fa-external-link"
-                            aria-hidden="true"></i></a>
-                    <a href="" class="hero_info__social-link">Curriculum <i class="fa fa-external-link"
-                            aria-hidden="true"></i></a>
+                    <a href="" class="hero_info__social-link">GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a href="" class="hero_info__social-link">Linkedin <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a href="" class="hero_info__social-link">Instagram <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a href="" class="hero_info__social-link">Curriculum <i class="fa fa-external-link" aria-hidden="true"></i></a>
                 </nav>
             </div>
 
@@ -97,6 +99,52 @@
                 </div>
 
             </section>
+
+            <section id="softskills">
+                <h2 class="softskills_titulo">Soft Skills</h2>
+                <div class="softskills_curso">
+                    <div class="softskills_curso__box">
+                        <ul class="softskills_cursos__lista">
+                            <li class="softskills_cursos__img"><img src="./imagenes/gestiónAgil.png" alt="Certificado">
+                            </li>
+                            <li class="softskills_curso__titulo">
+                                <h4>Business Agility</h4>
+                            </li>
+                            <li class="softskills_curso__subtitulo">
+                                <p>Formación/Certificados</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="softskills_curso">
+                        <div class="softskills_curso__box">
+                            <ul class="softskills_cursos__lista">
+                                <li class="softskills_cursos__img"><img src="./imagenes/businessModelCanvasII.png" alt="Certificado">
+                                </li>
+                                <li class="softskills_curso__titulo">
+                                    <h4>Emprendimiento</h4>
+                                </li>
+                                <li class="softskills_curso__subtitulo">
+                                    <p>Formación/Certificados</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="softskills_curso">
+                            <div class="softskills_curso__box">
+                                <ul class="softskills_cursos__lista">
+                                    <li class="softskills_cursos__img"><img src="./imagenes/habitosLiderazgo.png"
+                                            alt="Certificado"></li>
+                                    <li class="softskills_curso__titulo">
+                                        <h4>Desarrollo Personal</h4>
+                                    </li>
+                                    <li class="softskills_curso__subtitulo">
+                                        <p>Formación/Certificados</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+            </section>
+
 
             <section id="hobbies">
                 <h2 class="hobbies_titulo">Hobbies</h2>
@@ -219,7 +267,11 @@
 
 
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer_texto">
+            <p>Desarrollado por Licia Carreras</p>
+            <p>2022</p>
+        </div>
 
     </footer>
 
