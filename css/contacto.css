@@ -2,12 +2,6 @@
     background: #EAF2FD;
     display: flex;
     flex-direction: row;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #464646;
     margin-top: 30px;
 }
 
@@ -47,7 +41,7 @@
 }
 
 .form_contacto__ingreso {
-    width:  656px;
+    width:  100%;
     margin: 8px;
     background: #FFFFFF;
     border-radius: 4px;
@@ -71,15 +65,9 @@
 }
 
 .form_contacto__boton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     background: #2cbaba;
     padding: 10px;
     margin: 10px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
