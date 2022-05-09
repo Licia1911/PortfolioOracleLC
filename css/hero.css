@@ -1,99 +1,42 @@
 #hero {
+    width: 90%;
     background-image: url(../imagenes/banner1.jpg);
-    background-size: 1150px;
     background-repeat: no-repeat;
+    align-items: center;
     display: flex;
-
-    position: static;
-    width: auto;
-    height: auto;
-    margin-left: 152px;
-    top: 120px;
-}
-
-
-.hero_info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 751px;
-    height: 246px;
-    left: 0px;
-    margin-top: 0px;
-
+    margin-top: 30px;
+    margin-left: 60px;
 }
 
 .hero_info__titulo {
-    position: static;
-    width: 751px;
-    height: 122px;
-    left: 0px;
-    margin-top: 10px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
     font-size: 52px;
     line-height: 61px;
-
-    /* Preto/100% */
-
+    margin-left: 20px;
     color: #464646;
 }
 
 .hero_info__presentacion {
-    position: static;
-    width: 751px;
-    height: 52px;
-    left: 0px;
-    margin-top: 70px;
-
+    margin-top: 10px;
+    margin-left: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-
-    /* Preto/100% */
-
     color: #464646;
 }
 
 .hero_info__social {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 10px;
-    justify-content: space-between;
-
-    position: static;
-    width: 467px;
-    height: 50px;
-    left: 130px;
-    top: 10px;
-
+margin-top: 20px;
 }
 
 .hero_info__social-link {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 467px;
-    height: 24px;
-    left: 0px;
-    top: 222px;
+    margin-left: 20px;
     color: #464646;
     text-decoration: none;
-}
-
-.hero_info__social-link i {
-    padding: 5px;
 }
 
 .hero_info__social-link:hover {
@@ -101,10 +44,5 @@
 }
 
 .hero_fotoPerfil {
-    position: static;
-    width: 368px;
-    height: 368px;
-    left: 768px;
-    top: 0px;
     border-radius: 100%;
 }

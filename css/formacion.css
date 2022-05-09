@@ -1,58 +1,25 @@
 #formacion {
+    margin-top: 90px;
+    background: #EAF2FD; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 82px;
-
-    position: static;
-    width: 100%;
-    height: auto;
-
-    margin-top: 90px;
-    background: #EAF2FD;
 }
 
 .formacion_titulo {
-    position: static;
-    width: 339px;
-    height: 38px;
-    left: 550.5px;
-    margin-top: 32px;
-    margin-bottom: 60px;
-
+    padding: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
-    /* identical to box height */
-
     text-align: center;
     color: #464646;
 }
-
 .curso {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: auto;
-    height: 347px;
-
-    top: 12px;
-}
-
-.curso_box {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: auto;
-    height: 347px;
 }
 
 .cursos_lista {
@@ -60,29 +27,10 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-
-    position: static;
-    width: 368px;
-    height: 347px;
 }
 
-.curso_img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 6px;
-
-    position: static;
-    width: 340px;
-    height: 286px;
-    background: #FFFFFF;
-    border-radius: 20px;
-
-}
 
 .curso_img img {
-    position: static;
     width: 292px;
     height: 230px;
     left: 88px;
@@ -91,27 +39,16 @@
 }
 
 .curso_titulo {
-    position: static;
-    width: 368px;
-    height: 26px;
-    left: 0px;
-    top: 294px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     color: #464646;
+    padding: 10px;
 }
 
 .curso_subtitulo {
-    position: static;
-    width: 368px;
-    height: 19px;
-    left: 0px;
-    top: 328px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;

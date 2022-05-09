@@ -1,0 +1,180 @@
+@media screen and (max-width:720px) {
+    .header{
+        height: auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /***** ENCABEZADO *****/
+
+    .encabezado_nombre {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .encabezado_nav__link {
+        display: list-item;
+    }
+
+    /***** HERO *****/
+
+    #hero {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: none;
+        margin-left: none;
+    }
+
+    .hero_info__social-link {
+        padding: 5px;
+    }
+
+
+    /***** SOBRE MI *****/
+
+
+    #sobre {
+        width: auto;
+    }
+
+    .sobre_container__titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre_container__descripcion {
+        width: auto;
+        display:inline-block;
+        align-items:flex-start;
+        margin-right: 30px;
+    }
+
+    /***** SKILLS/SOFTSKILLS/HOBBIES *****/
+
+
+    .skills_lista__items {
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #softskills {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .softskills_curso {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .softskills_cursos__lista {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .softskills_curso__titulo{
+        text-align: center;
+    }
+
+    .softskills_curso__subtitulo {
+        text-align: center;
+    }
+
+    .hobbies_lista__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /***** FORMACION *****/
+
+    #formacion {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .curso {
+        width: auto;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cursos_lista {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curso_img img {
+        padding: 30px;
+    }
+
+    .curso_titulo {
+        text-align: center;
+    }
+
+    .curso_subtitulo {
+        text-align: center;
+    }
+
+
+    .proyectos_titulo {
+        text-align: center;
+    }
+
+    .proyectos_box {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos_img {
+        width: 95%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /***** CONTACTO ******/
+
+    .form_contacto {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .img_contacto {
+        width:95%;
+        border-radius: 110px;
+        padding: none;
+        align-items: center;
+    }
+
+    .form_contacto__ingreso {
+        width: 95%;
+    }
+
+
+
+}

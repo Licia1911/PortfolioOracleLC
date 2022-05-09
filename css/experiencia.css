@@ -1,24 +1,11 @@
-.proyectos {
+#experiencia {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    
-    position: static;
-    width: auto;
-    height: auto;
-
-    top: 2212px;
 }
 
-.proyectos_titulo {
-    position: static;
-    width: 361px;
-    height: 38px;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
-
+.proyectos_titulo{
+    padding: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -31,21 +18,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-
-    position: static;
-    width: 1136px;
-    height: 406px;
-    margin-left: 182px;
-    top: 0px;
 }
 
 .proyectos_img {
-    position: static;
     width: 500px;
     height: 300px;
-    left: 0px;
-    top: 0px;
     border-radius: 30px;
     border: 1px solid #464646;
     box-shadow: #464646 8px 8px 8px;
@@ -55,9 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    margin-left: 35px;
-    position: static;
+    padding: 80px;
     width: 368px;
     height: 112px;
     left: 768px;
@@ -65,44 +40,20 @@
 }
 
 .experiencia_titulo {
-    position: static;
-    width: 368px;
-    height: 26px;
-    left: 0px;
-    top: 0px;
-    padding-left: 5px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
-
-
-    /* Preto/100% */
-
     color: #464646;
 }
 
 .experiencia_texto {
-    position: static;
-    width: 368px;
-    height: 19px;
-    left: 0px;
-    top: 34px;
-    padding-left: 5px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
-    /* Preto/100% */
-
     color: #464646;
 }
 
@@ -111,44 +62,23 @@
     flex-direction: row;
     align-items: flex-start;
     padding-top: 10px;
-    
-    position: static;
-    width: 560px;
-    height: 51px;
-    left: 0px;
-    top: 61px;
 }
 
 .experiencia_repo {
+    color: #2cbaba;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    
-    position: static;
-    width: 116px;
-    height: 51px;
-    left: 0px;
-    top: 0px;
-    color: #2A7AE4;
+    padding: 5px;
 }
 
 .experiencia_demo {
+    background: #2cbaba;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1px;
-    
-    position: static;
-    width: 105px;
-    height: 51px;
-    left: 132px;
-    top: 0px;
-    
-    /* Azul/100% */
-    
-    background: #2A7AE4;
-    color: white;
+    padding: 5px;
 }

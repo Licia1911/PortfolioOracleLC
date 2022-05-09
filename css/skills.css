@@ -1,33 +1,11 @@
-.container_skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-
-    position: static;
-    width: auto;
-    height: auto;
-    top: 935px;
-    margin-left: 35px;
-}
-
-
 #skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-
-    position: static;
-    margin-left: 0px;
-    margin-top: 40px;
 }
 
 .skills_titulo {
-    position: static;
-    width: 82px;
-    height: 38px;
-
+    padding: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -35,38 +13,20 @@
     line-height: 38px;
     text-align: center;
     color: #464646;
-
-}
-
-.skills_lista {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: static;
-    width: 1136px;
-    height: 174px;
-    left: 0px;
-    margin-top: 20px;
-    
 }
 
 .skills_lista__items {
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-start;
     padding: 16px;
-    position: static;
     width: 150px;
     height: 174px;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
     border-radius: 20px;
-    
 }
-
 .skills_lista__items:hover {
     transform: scale(1.2);
     background: #EAF2FD;
@@ -74,54 +34,33 @@
 }
 
 .fa-brands {
-    position: static;
-    width: 24px;
-    height: 37px;
-    left: 16px;
-    top: 94px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
     text-align: center;
-
-    color: #2A7AE4;
-
+    color: #2cbaba;
 }
 
 #softskills {
+    margin-top: 30px;
+    background: #EAF2FD;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 82px;
-
-    position: static;
-    width: auto;
-    height: auto;
-    margin-top: 40px;
-
 }
 
-.softskills_titulo {
-    position: static;
-    width: 339px;
-    height: 38px;
-    left: 550.5px;
-    top: 82px;
 
+.softskills_titulo {
+    padding: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 38px;
-
     text-align: center;
-
     color: #464646;
 }
 
@@ -129,26 +68,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 1136px;
-    height: 174px;
-    left: 152px;
-    top: 152px;
-}
-
-.softskills_curso__box {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 1136px;
-    height: 174px;
-    left: 152px;
-    top: 152px;
 }
 
 .softskills_cursos__lista {
@@ -156,35 +75,22 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-
-    position: static;
-    width: 368px;
-    height: 174px;
     margin-left: 10px;
     top: 0px;
-
 }
 
 .softskills_cursos__img {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px;
-
-    position: static;
-    width: 250px;
+    padding: 6px;
+    width: 340px;
     height: 286px;
-    left: 0px;
-    top: 0px;
-
-    background: #EAF2FD;;
+    background: #FFFFFF;
     border-radius: 20px;
-
 }
 
 .softskills_cursos__img img{
-    position: static;
     width: 192px;
     height: 130px;
     left: 88px;
@@ -197,84 +103,45 @@
     transform: scale(2);
 }
 
-.softskills_curso__titulo {
-    position: static;
-    width: 368px;
-    height: 26px;
-    margin-left: 20px;
-    top: 294px;
-
+.softskills_curso__titulo{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-
     color: #464646;
 }
 
 .softskills_curso__subtitulo {
-    position: static;
-    width: 368px;
-    height: 19px;
-    margin-left: 20px;
-    top: 328px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #464646;
 }
-
 
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-
-    position: static;
-    width: auto;
-    height: auto;
-    margin-left: 10px;
-
-
 }
 
 .hobbies_titulo {
-    position: static;
-    width: 127px;
-    height: 38px;
-    left: 504.5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-
     text-align: center;
-
     color: #464646;
-
+    padding: 20px;
 }
 
 .hobbies_lista {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-
-    position: static;
-    width: 1136px;
-    height: 174px;
-    left: 0px;
-    top: 70px;
 }
 
 .hobbies_lista__items {
@@ -283,37 +150,24 @@
     justify-content: flex-end;
     align-items: flex-start;
     padding: 16px;
-
-    position: static;
-    width: 150px;
-    height: 174px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
     border-radius: 20px;
-
 }
-
 
 .hobbies_lista__items-icono {
     position: static;
-    width: 100px;
-    left: 16px;
-    top: 94px;
-
+    width: 180px;
+    display: block;
+    align-items: center;
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-
-    display: block;
-    margin: auto;
-    align-items: center;
-    text-align: center;
 }
 
 .hobbies_lista__items-icono:hover {
-    transform: scale(1.8);
+    transform: scale(1.3);
     border-radius: 20px;
 }
 

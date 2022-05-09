@@ -1,21 +1,14 @@
 .form_contacto {
+    background: #EAF2FD;
     display: flex;
     flex-direction: row;
-    position: static;
-    width: 100%;
-    height: auto;
-    background: #EAF2FD;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #464646;
-    margin-left: -45px
-}
-
-.form_contacto__img {
-    margin: 1rem;
+    margin-top: 30px;
 }
 
 .img_contacto {
@@ -24,109 +17,56 @@
     height: 490px;
     top: 65.5px;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .form_contacto__formulario {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    margin: 2rem;
-    position: static;
-    width: 556px;
-    height: 496px;
-
 }
 
 .form_contacto__titulo {
-    position: static;
-    width: 141px;
-    height: 38px;
-    left: 0px;
-    top: 0px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
     color: #464646;
+    padding: 8px;
 }
 
 .form_contacto__texto {
-    position: static;
-    width: 656px;
-    height: 38px;
-    left: 0px;
-    top: 46px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
     color: #464646;
+    padding: 8px;
 }
 
-.form_contacto__nombre {
-    position: static;
-    width: 656px;
-    height: 56px;
-    left: calc(50% - 656px/2);
-    top: 0px;
-    margin-bottom: 1rem;
+.form_contacto__ingreso {
+    width:  656px;
+    margin: 8px;
     background: #FFFFFF;
     border-radius: 4px;
     border: none;
-    border-bottom: 2px solid #539cf0;
-
+    border-bottom: 2px solid #2cbaba;
 }
 
-.form_contacto__e-mail {
-    position: static;
-    width: 656px;
-    height: 56px;
-    left: calc(50% - 656px/2);
-    top: 0px;
-    margin-bottom: 1rem;
-    background: #FFFFFF;
-    border-radius: 4px;
-    border: none;
-    border-bottom: 2px solid #539cf0;
-}
-
-.form_contacto__asunto {
-    position: static;
-    width: 656px;
-    height: 56px;
-    left: calc(50% - 656px/2);
-    top: 0px;
-    margin-bottom: 1rem;
-    background: #FFFFFF;
-    border-radius: 4px;
-    border: none;
-    border-bottom: 2px solid #539cf0;
-}
 
 .form_contacto__mensaje {
-    position: static;
-    width: 656px;
-    height: 133px;
-    left: calc(50% - 656px/2);
-    top: 0px;
-    margin-bottom: 1rem;
+    margin: 10px;
     background: #FFFFFF;
     border-radius: 4px;
     border: none;
-    border-bottom: 2px solid #539cf0;
+    border-bottom:  2px solid #2cbaba;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
-    
+    font-size: 13px;    
     line-height: 19px;
-
     color: #464646;
 }
 
@@ -135,24 +75,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px;
-
-    position: static;
-    width: 144px;
-    height: 51px;
-    left: 0px;
-    top: 545px;
-    border: none;
-    border-radius: 4px;
-    background: #2A7AE4;
-
+    background: #2cbaba;
+    padding: 10px;
+    margin: 10px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
     color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
 }
 
 .form_contacto__boton:active {
