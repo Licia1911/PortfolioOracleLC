@@ -177,6 +177,11 @@
 
     /*********** PROYECTOS/EXPERIENCIA ****************/
 
+    .info-container {
+        width: 80%;
+        height: auto;
+    }
+
     .experiencia_titulo {
         margin: 0 20px;
     }
@@ -190,7 +195,6 @@
     }
 
     /********** CONTACTO ***********/
-
 
 
     .form_contacto__titulo {
