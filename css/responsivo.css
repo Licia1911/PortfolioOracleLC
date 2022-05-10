@@ -1,6 +1,6 @@
 @media screen and (max-width:768px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden
     }
 
     .header{
@@ -191,6 +191,8 @@
 
     /********** CONTACTO ***********/
 
+
+
     .form_contacto__titulo {
         margin: 0 20px;
     }
@@ -200,15 +202,18 @@
     }
 
     .form_contacto__ingreso {
-        margin: 10px 30px;
+        width: 75%;
+        margin: 10px 20px;
     }
 
     .form_contacto__mensaje {
-        margin: 10px 30px;
+        width: 75%;
+        height: auto;
+        margin: 10px 20px;
     }
 
     .form_contacto__boton {
-        margin: 10px 30px;
+        margin: 10px 20px;
     }
 
     /********FOOTER********/
