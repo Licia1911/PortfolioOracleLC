@@ -1,4 +1,8 @@
 @media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .header{
         height: auto;
     }
@@ -35,6 +39,9 @@
     .hero_info__social-link {
         padding: 5px;
     }
+    .fa-external-link {
+        color: #2cbaba;
+    }
 
 
     /***** SOBRE MI *****/
@@ -44,11 +51,6 @@
         width: auto;
     }
 
-    .sobre_container__titulo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .sobre_container__descripcion {
         width: auto;
@@ -57,21 +59,39 @@
         margin-right: 30px;
     }
 
-    /***** SKILLS/SOFTSKILLS/HOBBIES *****/
+    /***** SKILLS/HOBBIES *****/
+
+    .skills_lista {
+
+        margin-left: 70px;
+    }
 
 
     .skills_lista__items {
-        display: inline-flex;
-        margin: 5px;
+        width: 25%;
+        height: auto;
         align-items: center;
         justify-content: center;
+        margin: 5px;
+
+    }
+
+    .hobbies_lista{
+        margin-left: 70px;
     }
 
     .hobbies_lista__items {
+        width: 25%;
+        height: auto;
         display: inline-flex;
+        align-items: center;
         margin: 5px;
         
+    }
 
+    .hobbies_lista__items-icono {
+        width: 60%;
+        height: auto;
     }
 
     /***** FORMACION *****/
@@ -110,13 +130,19 @@
 
     .proyectos_titulo {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .proyectos_box {
         width: 100%;
-        display: block;
+        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .proyectos_box:nth-child(odd) {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .proyectos_img {
@@ -125,6 +151,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+
+
+
 
     /***** CONTACTO ******/
 
@@ -137,10 +167,7 @@
 
 
     .img_contacto {
-        width:95%;
-        border-radius: 110px;
-        padding: none;
-        align-items: center;
+        display: none;
     }
 
     .form_contacto__ingreso {
